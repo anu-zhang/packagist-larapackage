@@ -1,10 +1,10 @@
 <?php
 
-namespace ArcherWong\LaraPackage\ArcherWong\LaraPackage;
+namespace Shebao\LaraPackage;
 
 use Illuminate\Support\Facades\Facade;
 
-class LaraPackage extends Facade
+class LaraPackageFacade extends Facade
 {
     public static function getFacadeAccessor()
     {

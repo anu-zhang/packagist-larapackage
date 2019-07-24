@@ -1,10 +1,10 @@
 <?php
 
-namespace ArcherWong\LaraPackage\Controllers;
+namespace Shebao\LaraPackage\Controllers;
 
 use Illuminate\Routing\Controller as BaseController;
-use Illuminate\Support\Facades\View;
 use Larapackage;
+
 class IndexController extends BaseController
 {
     public function index()

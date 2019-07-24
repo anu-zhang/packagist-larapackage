@@ -14,13 +14,13 @@
   "extra": {
     "laravel": {
       "providers": [
-        "ArcherWong\\LaraPackage\\ArcherWong\\LaraPackage\\LaraPackageProvider"
+        "Shebao\\LaraPackage\\LaraPackageProvider"
       ]
     }
   },
   "autoload": {
     "psr-4": {
-      "ArcherWong\\LaraPackage\\": "/src"
+      "Shebao\\LaraPackage\\": "/src"
     }
   }
 }

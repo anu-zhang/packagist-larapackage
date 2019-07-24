@@ -1,9 +1,9 @@
 <?php
 
-namespace ArcherWong\LaraPackage\ArcherWong\LaraPackage;
+namespace Shebao\LaraPackage;
 
 use Illuminate\Support\ServiceProvider;
-use ArcherWong\LaraPackage\ArcherWong\LaraPackage\MoreAction;
+use Shebao\LaraPackage\MoreAction;
 
 class LaraPackageProvider extends ServiceProvider
 {
@@ -35,7 +35,7 @@ class LaraPackageProvider extends ServiceProvider
         $this->app->singleton('larapackage', function () {
             //我们可以通过facades的aliase访问下面的MoreAction
             //会在config的app.php文件中进行服务提供者和别名的注册
-            return $this->app->make('ArcherWong\LaraPackage\ArcherWong\LaraPackage\MoreAction');
+            return $this->app->make('Shebao\LaraPackage\MoreAction');
 //            return new MoreAction($app);
         });
     }

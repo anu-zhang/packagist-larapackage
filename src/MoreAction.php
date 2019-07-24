@@ -1,5 +1,5 @@
 <?php
-namespace ArcherWong\LaraPackage\ArcherWong\LaraPackage;
+namespace Shebao\LaraPackage;
 
 class MoreAction
 {
