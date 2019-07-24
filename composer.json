@@ -1,0 +1,26 @@
+{
+  "name": "shebao/larapackage",
+  "description": "my first test packages1 test webhook",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "zhang meng ke",
+      "email": "michael_u@163.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.36"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "ArcherWong\\LaraPackage\\ArcherWong\\LaraPackage\\LaraPackageProvider"
+      ]
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "ArcherWong\\LaraPackage\\": "/src"
+    }
+  }
+}
